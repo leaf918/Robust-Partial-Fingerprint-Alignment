@@ -25,6 +25,8 @@ The SOCOFing dataset can be downloaded mannually https://www.kaggle.com/datasets
 
 After dataset generation in previous step, there will be 4 folders,each one is a dataset with a specificed partial square side length. More inspectoin see [dataset_generate.py].
 
+![image.png](assets/gt.png)
+
 ![image.png](assets/pipe1)
 
 ![ds1.png](assets/ds1.png?t=1660644544386)
