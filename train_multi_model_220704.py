@@ -267,7 +267,7 @@ if __name__ == '__main__':
             resnet18_input2channel
             Vgg11_bn_input2channel
             以上网络不能训练
-    
+    note0812 重新安装环境，全部可以正常训练
     '''
     paths_4_dataset = glob('dataset_train*edge*/')
     models_prototypes = [

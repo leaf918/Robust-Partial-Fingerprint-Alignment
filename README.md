@@ -4,7 +4,6 @@ CNN-based Fingerprint alignment
 
 2022.08
 
-
 # Abstracts.
 
 Real-world fingerprint matching is
@@ -32,7 +31,7 @@ After dataset generation in previous step, there will be 4 folders,each one is a
 
 # Training
 
-We use script [train_multi_model_220704.py] to train the model,between line 272 and 285, that can config the training hyper parameters, in default , the script will train 96 models (96=4x4x6, 4 ground truth types,4 datasets, 6 base models).
+We use script [train_multi_model_220704.py] to train the model,between line 272 and 285, that can config the training hyper parameters, in default , the script will produce 96 models (96=4x4x6, 4 ground truth types,4 datasets, 6 base models).
 
 Evaluation log will occur after every epoch data,and the model will be stored after the last epoch trained.
 
@@ -45,6 +44,8 @@ There are lots of scripts for analyzing. For research errors of models and ORB f
 ![image.png](assets/orb.png)
 
 # Report
+
+![image.png](assets/infer)
 
 Performances.
 
