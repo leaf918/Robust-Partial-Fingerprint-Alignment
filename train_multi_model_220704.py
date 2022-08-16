@@ -269,7 +269,7 @@ if __name__ == '__main__':
             以上网络不能训练
     
     '''
-    paths_4_dataset = glob('dataset_train*edge40/')
+    paths_4_dataset = glob('dataset_train*edge*/')
     models_prototypes = [
         MobileNetv2_input2channel,
         # MobileNetV3_input2channel,
@@ -281,8 +281,8 @@ if __name__ == '__main__':
         Googlenet_input2channel,
         Vgg11_bn_input2channel
     ]
-    # gt_corners = [[0, 1], [0, 2], [0, 1, 2], [0, 1, 2, 3]]
-    gt_corners = [[0, 1, 2, 3]]
+    gt_corners = [[0, 1], [0, 2], [0, 1, 2], [0, 1, 2, 3]]
+    # gt_corners = [[0, 1, 2, 3]]
     for train_instance in itertools.product(paths_4_dataset, models_prototypes, gt_corners):
         ds = datetime.now().strftime("%Y%m%d_%H%M%S")
         torch.cuda.empty_cache()
