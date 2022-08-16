@@ -45,7 +45,7 @@ There are lots of scripts for analyzing. For research errors of models and ORB f
 
 # Report
 
-![image.png](assets/infer)
+![image.png](assets/infer.png)
 
 Performances.
 
