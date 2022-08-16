@@ -36,3 +36,17 @@ The log file contains all the config parameters and training log for every model
 # Analyze
 
 There are lots of scripts for analyzing. For research errors of models and ORB feature.
+
+# Report
+
+Performances.
+
+
+| Model                | Model Size | MAE     |
+| -------------------- | ---------- | ------- |
+| CV-ORB               | --         | 3269.8  |
+| **FP21-MobileNetV2** | **8.5MB**  | **3.7** |
+| FP21-ShuffleNetV2    | 4.8MB      | 4.4     |
+| FP21-resnet18        | 42.6MB     | 4.7     |
+| FP21-densenet121     | 26.5MB     | 9.8     |
+| FP21-Googlenet       | 21.4MB     | 19      |
