@@ -18,12 +18,17 @@ alignment network works without local features extracted from the fingerprint
 images. There is a comparison between FP21Net and traditional homography
 estimation based on ORB features.
 
+![conv.png](assets/conv.png)
+
 # Dataset
 
 The SOCOFing dataset can be downloaded mannually https://www.kaggle.com/datasets/ruizgara/socofing , and use the scripy [dataset_generate.py] to prepare the dataset for training and evaluation.
 
 After dataset generation in previous step, there will be 4 folders,each one is a dataset with a specificed partial square side length. More inspectoin see [dataset_generate.py].
 
+![image.png](assets/pipe1)
+
+![ds1.png](assets/ds1.png?t=1660644544386)
 
 # Training
 
@@ -36,6 +41,8 @@ The log file contains all the config parameters and training log for every model
 # Analyze
 
 There are lots of scripts for analyzing. For research errors of models and ORB feature.
+
+![image.png](assets/orb.png)
 
 # Report
 
